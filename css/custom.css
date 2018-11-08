@@ -1,0 +1,228 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+.btn, .btn:focus {
+	background-color: #f1e3c4;
+	color: #262626;
+	border-color: #f1e3c4;
+}
+.btn:hover, .btn:active {
+	background-color: #3b2314;
+	border-color: #3b2314;
+	color: #fff;
+}
+a.toggle-item:hover, a.toggle-item:focus, a.toggle-item:active {
+	color: #fff !important;
+}
+/*.container-fullscreen h6, .container-fullscreen h2, .container-fullscreen .lead{
+	color: #fff;
+}*/
+
+#topbar li a {
+	/*color: #fff;*/
+}
+.header-transparent #mainMenu nav li a {
+	/*color: #fff;*/
+}
+.slide-captions {
+	text-align: right;
+}
+.slide-captions .lead {
+	font-size: 1.4rem;
+}
+#topbar .social-icons li a {
+	width: initial;
+}
+
+h3 small {
+	display: block;
+	font-size: 0.9rem;
+}
+.brief {
+	margin: 0 !important;
+	padding: 0;
+    padding-top: 1rem;
+    text-align: left;
+    padding-left: 3rem;
+}
+.brief li {
+	list-style: none;
+}
+#rooms .container .row {
+	margin-bottom: ;
+}
+#rooms .container .col-md-6 {
+	background-color: #fff;
+	min-height: 351px;
+}
+.room-summary {
+	padding: 2rem;
+}
+.room-summary p{
+	font-size: : 0.7rem !important;
+	line-height: 20px !important;
+}
+.for-mother .col-md-4 {
+	/*border-bottom: 1px solid #eaeaea;*/
+	padding: 0 4rem;
+	min-height: 470px;
+}
+.for-mother .col-md-4 img {
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+.for-mother .col-md-4 h3 {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #856a5d;
+}
+.for-mother .col-md-4 p {
+	padding-bottom: 1rem;
+	font-size: 1rem;
+}
+.guide .info {
+	margin-top: 2rem;
+	font-size: 0.9rem;
+}
+.guide .info li{
+	list-style: none;
+}
+.guide-info h3 {
+	font-size: 3rem;
+}
+.cost .tabs h3 {
+	font-size: 3rem;
+}
+.cost .tabs h3 small{
+	margin-bottom: 0.7rem;
+}
+.pricing-table .plan .plan-header .plan-price {
+	font-size: 3rem;	
+	padding: 6px 0;
+}
+.pricing-table .plan .plan-header .plan-price .early{
+	color: orange;
+	font-size: 3rem;
+}
+.pricing-table .plan .plan-header {
+	padding-left: 0;
+	padding-right: 0;
+}
+.pricing-table .plan .plan-header h5{
+	margin-top: 2rem;
+}
+body.device-lg .pricing-table .col-md-2, body.device-md .pricing-table .col-md-2 {
+	padding: 10px;
+}
+.pricing-table .plan-list ul {
+	padding: 0 10px;
+}
+.pricing-table .plan-list ul li {
+	border-bottom: 0;
+}
+.pricing-table .plan-list .btn {
+	margin-top: 1rem;
+}
+#mainMenu nav > ul > li.hover-active > a, #mainMenu nav > ul > li.hover-active > span, #mainMenu nav > ul > li.current > a, #mainMenu nav > ul > li.current > span, #mainMenu nav > ul > li:hover > a, #mainMenu nav > ul > li:hover > span, #mainMenu nav > ul > li:focus > a, #mainMenu nav > ul > li:focus > span {
+	color: #f1e3c4;
+}
+.loader .loader-inner div {
+	background-color: #f1e3c4;
+}
+.room-slide img{
+	max-width: 100%;
+}
+.room-img {
+	padding: 0;
+}
+.swiper-pagination-bullet-active {
+	background-color: #3b2314;
+}
+.room-summary .option {
+	margin-bottom: 2rem;
+}
+.room-summary .option span {
+	font-size: 0.9rem;
+	margin-right: 0.5rem;
+}
+.room-summary .option .tit {
+	font-weight: bold;
+	margin-right: 1rem;
+}
+.heading span.hr {
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	background-color: #fae3c4;
+}
+.laspa h2 small {
+	display: block;
+}
+.for-mother img {
+	max-width: 100%;
+}
+.simple .tabs-navigation li.active a, .simple .tabs-navigation li.active a:focus, .simple .tabs-navigation li a:hover {
+	color: #3b2314;
+	border-color: #3b2314;
+}
+#header-wrap .toggle-item {
+	position: absolute;
+	right: -120px;
+	top: 20px;
+}
+.partner .carousel img {
+	padding: 2.4rem;
+}
+address {
+	margin-bottom: 0;
+	color: #999;
+}
+.footer-content {
+    padding: 20px 0 30px 0;
+}
+.footer-content span {
+	color: #494949 !important;
+}
+.side-panel-wrap .form-group {
+	margin-bottom: 0;
+}
+.side-panel-wrap .form-group input{
+	 /*width: 100%;*/
+}
+.side-panel-wrap .form-group label {
+	text-align: left;
+}
+.side-panel-wrap .form-group .private-agree-label {
+	display: inline-block;
+}
+.side-panel-wrap .form-group #private-agree {
+	vertical-align: middle;
+	margin-top: 0;
+}
+.side-panel-wrap .form-group textarea {
+	min-height: 120px;
+}
+#side-panel .side-panel-wrap .logo {
+	margin-bottom: 0;
+}
+.go-private-agree {
+	font-size: 0.9rem;
+	color: #3b2314;
+	text-decoration: underline;
+}
+.go-request {
+	margin-top: 2rem;
+}
+.inspiro-slider .slide-captions > p {
+	line-height: 40px;
+	font-size: 1.6rem;
+}
+.owl-carousel.arrows-creative .owl-nav [class*="owl-"]:hover {
+	background-color: #fae3c4;
+}
