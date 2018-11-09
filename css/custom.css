@@ -108,6 +108,7 @@
 
 
 
+
 /*타블렛 사이즈*/
 @media screen and (min-width:640px) and (max-width:939px) {
 
@@ -153,7 +154,6 @@
     /*content*/
     .centers{
         height: calc(100vh - 50px);
-        background: red;
     }
     .centers > div {
         width: 100%;
